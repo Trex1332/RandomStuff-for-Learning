@@ -28,7 +28,7 @@ def main():
     print("Your Score was ", score)
 
 def randomquestion(b):
-    quiz_category = random.choice(list(b.keys()))  # Select a random category key (e.g., "cats" or "dogs")
+    quiz_category = random.choice(list(b.keys()))
     return quiz_category
 
 main()

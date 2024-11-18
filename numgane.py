@@ -11,7 +11,10 @@ def main():
 
         if guess == numer:
             print("you win!!")
-            break
+            return 0
+      
+            
+
         else:
             print("wrong ")
             lives -= 1
