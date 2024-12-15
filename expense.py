@@ -1,6 +1,6 @@
 def main():
-    amount = int(input("how much is the bill? "))
-    people = int(input("how many people are there? "))
+    amount = float(input("how much is the bill? "))
+    people = float(input("how many people are there? "))
     
     per_person = billsplit(amount,people)
 
